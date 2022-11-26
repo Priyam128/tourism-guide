@@ -20,20 +20,20 @@ function App(){
     return(
         <div className="App">
         <Routes>
-            <Route path="/tourism-guide/home" element={<Home/>}/>
-            <Route path="/tourism-guide/about" element={<About/>}/>
-            <Route path="/tourism-guide/states" element={<States/>}/>
-            <Route path="/tourism-guide/contact" element={<Contact/>}/>
-            <Route path="/tourism-guide/states/bihar" element={<BiharPage/>}/>
-            <Route path="/tourism-guide/states/delhi" element={<DelhiPage/>}/>
-            <Route path="/tourism-guide/states/goa" element={<GoaPage/>}/>
-            <Route path="/tourism-guide/states/rajasthan" element={<RajasthanPage/>}/>
-            <Route path="/tourism-guide/states/westbengal" element={<WestBengalPage/>}/>
-            <Route path="/tourism-guide/states/uttarpradesh" element={<UttarPradeshPage/>}/>
-            <Route path="/tourism-guide/states/punjab" element={<PunjabPage/>}/>
-            <Route path="/tourism-guide/states/maharashtra" element={<MaharashtraPage/>}/>
-            <Route path="/tourism-guide/states/tamilnadu" element={<TamilNaduPage/>}/>
-            <Route path="/tourism-guide/states/kerala" element={<KeralaPage/>}/>
+            <Route path="/tourism-guide" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/states" element={<States/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/states/bihar" element={<BiharPage/>}/>
+            <Route path="/states/delhi" element={<DelhiPage/>}/>
+            <Route path="/states/goa" element={<GoaPage/>}/>
+            <Route path="/states/rajasthan" element={<RajasthanPage/>}/>
+            <Route path="/states/westbengal" element={<WestBengalPage/>}/>
+            <Route path="/states/uttarpradesh" element={<UttarPradeshPage/>}/>
+            <Route path="/states/punjab" element={<PunjabPage/>}/>
+            <Route path="/states/maharashtra" element={<MaharashtraPage/>}/>
+            <Route path="/states/tamilnadu" element={<TamilNaduPage/>}/>
+            <Route path="/states/kerala" element={<KeralaPage/>}/>
 
 
         </Routes>
