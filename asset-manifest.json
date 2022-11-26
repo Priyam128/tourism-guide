@@ -1,7 +1,7 @@
 {
   "main.css": "/tourism-guide/static/css/main.a34f910e.chunk.css",
-  "main.js": "/tourism-guide/static/js/main.e722e268.chunk.js",
-  "main.js.map": "/tourism-guide/static/js/main.e722e268.chunk.js.map",
+  "main.js": "/tourism-guide/static/js/main.aeb5e75f.chunk.js",
+  "main.js.map": "/tourism-guide/static/js/main.aeb5e75f.chunk.js.map",
   "static/js/1.b3b558e9.chunk.js": "/tourism-guide/static/js/1.b3b558e9.chunk.js",
   "static/js/1.b3b558e9.chunk.js.map": "/tourism-guide/static/js/1.b3b558e9.chunk.js.map",
   "runtime~main.js": "/tourism-guide/static/js/runtime~main.6b602113.js",
@@ -66,6 +66,6 @@
   "static/media/WestBengal-Art.jpg": "/tourism-guide/static/media/WestBengal-Art.d73a246e.jpg",
   "static/css/main.a34f910e.chunk.css.map": "/tourism-guide/static/css/main.a34f910e.chunk.css.map",
   "index.html": "/tourism-guide/index.html",
-  "precache-manifest.a9cdef6b51c4d9e1e5b4394ad94cbbd0.js": "/tourism-guide/precache-manifest.a9cdef6b51c4d9e1e5b4394ad94cbbd0.js",
+  "precache-manifest.1eb37383791ff9258097b4c2ef13ecf8.js": "/tourism-guide/precache-manifest.1eb37383791ff9258097b4c2ef13ecf8.js",
   "service-worker.js": "/tourism-guide/service-worker.js"
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e722e268ed39814b4c8d",
+    "revision": "aeb5e75f96464095642b",
     "url": "/tourism-guide/static/css/main.a34f910e.chunk.css"
   },
   {
-    "revision": "e722e268ed39814b4c8d",
-    "url": "/tourism-guide/static/js/main.e722e268.chunk.js"
+    "revision": "aeb5e75f96464095642b",
+    "url": "/tourism-guide/static/js/main.aeb5e75f.chunk.js"
   },
   {
     "revision": "b3b558e90ccdb61f9dc2",
@@ -248,7 +248,7 @@ self.__precacheManifest = [
     "url": "/tourism-guide/static/media/WestBengal-Art.d73a246e.jpg"
   },
   {
-    "revision": "273ba23c56e97d765ba19afc4bb35785",
+    "revision": "610727871727cb175fd1207ccfc811cf",
     "url": "/tourism-guide/index.html"
   }
 ];
