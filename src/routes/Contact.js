@@ -13,7 +13,7 @@ function Contact (){
         heroImg={ContactImg}
         css="hero-mid"
         title="Contact"
-        url="/about"
+        url="/contact"
         btnClass="hide"
         />
         <ContactUs/>
