@@ -15,7 +15,7 @@ function Home (){
         title="We Travel Not To Escape Life, But For Life Not To Escape Us."
         text="Choose Your Favorite Destination."
         buttonText="Travel Plan"
-        url="/home"
+        url="/tourism-guide"
         btnClass="show"
         />
         <Destination/>

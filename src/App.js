@@ -22,8 +22,8 @@ function App(){
         <Routes>
             <Route path="/tourism-guide" element={<Home/>}/>
             <Route path="/about" element={<About/>}/>
-            <Route path="/states" element={<States/>}/>
-            <Route path="/contact" element={<Contact/>}/>
+            <Route path="/contact" element={<States/>}/>
+            <Route path="/states" element={<Contact/>}/>
             <Route path="/states/bihar" element={<BiharPage/>}/>
             <Route path="/states/delhi" element={<DelhiPage/>}/>
             <Route path="/states/goa" element={<GoaPage/>}/>

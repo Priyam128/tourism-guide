@@ -14,7 +14,7 @@ function States (){
         heroImg={StatesImg}
         css="hero-mid"
         title="States"
-        url="/states"
+        url="/contact"
         btnClass="hide"
         />
         <StateList/>
