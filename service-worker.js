@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tourism-guide/precache-manifest.7a0c18249dd3f42de1056c51dd90adf1.js"
+  "/tourism-guide/precache-manifest.2fccd7a4a1794f6a83a32f3c13d66d2b.js"
 );
 
 workbox.clientsClaim();
