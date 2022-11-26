@@ -1,7 +1,7 @@
 {
   "name": "tourism-guide",
   "version": "0.1.0",
-  "homepage": "http://Priyam128.github.io/tourism-guide",
+  "homepage": "https://Priyam128.github.io/tourism-guide",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
