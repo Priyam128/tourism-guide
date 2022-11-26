@@ -1,0 +1,217 @@
+.grid-wrapper img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.grid-wrapper > div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.grid-wrapper > div > img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-overlay{
+    position: absolute;
+    font-size: 1.5rem;
+    width: 250px;
+    height: 200px;
+    background: rgba(0,0,0,0.6);
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition:all 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+.image-title{
+    color:white;
+    text-decoration: none;
+}
+
+.image-overlay:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.states-container button{
+    margin-bottom:50px;
+}
+
+.states-container{
+    margin: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+
+.image{
+    width: 100%;
+    margin: 1.0rem 0;
+}
+
+.image img{
+    height: 250px;
+}
+
+@media screen and (max-width: 800px) and (min-width:0px){
+    .states-container{
+        margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .grid-wrapper {
+        display: flex;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left:130px;
+        padding-right:100px;
+        flex-direction: column;
+
+    }
+
+    .grid-wrapper img{
+        padding-bottom: 2rem;
+    }
+
+    .image{
+        width: 100%;
+        margin: 1.0rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width:800px){
+    .states-container{
+        margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 200px;
+        padding-right:130px;
+        grid-gap: 10px;
+        grid-template-columns: 250px 250px;
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+
+    .image{
+        width: 100%;
+        margin: 1.0rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+    .states-container{
+        margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 130px;
+        padding-right:130px;
+        grid-gap: 10px;
+        grid-template-columns: 250px 250px 250px;
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+
+    .image{
+        width: 100%;
+        margin: 1.0rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1200px){
+    .states-container{
+        margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 100px;
+        padding-right:130px;
+        grid-gap: 10px;
+        grid-template-columns: 250px 250px 250px 250px;
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+
+    .image{
+        width: 100%;
+        margin: 1.0rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+}
+@media screen and (max-width:8000px) and (min-width:1400px){
+    .states-container{
+        margin: 4rem 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2.5rem;
+    }
+
+    .grid-wrapper {
+        display: grid;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 80px;
+        padding-right: 130px;
+        grid-gap: 10px;
+        grid-template-columns: 250px 250px 250px 250px 250px;
+        grid-auto-rows: 200px;
+        grid-auto-flow: dense;
+    }
+
+    .image{
+        width: 100%;
+        margin: 1.0rem 0;
+    }
+
+    .image img{
+        height: 250px;
+    }
+}
