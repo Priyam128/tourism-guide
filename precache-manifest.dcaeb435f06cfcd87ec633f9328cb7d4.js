@@ -248,7 +248,7 @@ self.__precacheManifest = [
     "url": "/tourism-guide/static/media/WestBengal-Art.d73a246e.jpg"
   },
   {
-    "revision": "1601d602f17cbe4bfd465d70b11debf3",
+    "revision": "c6ca6c3fc82c49960a48ddf9fac5f255",
     "url": "/tourism-guide/index.html"
   }
 ];
